@@ -1,4 +1,4 @@
-function deepclone(type, hash = new WeakMap) {
+function clone(type, hash = new WeakMap) {
     const referenceTypes = ['Array', 'Object', 'Map', 'Set', 'Date'];
     const isType = Object.prototype.toString.call(type);
     if (
@@ -6,21 +6,22 @@ function deepclone(type, hash = new WeakMap) {
         type instanceof WeakMap ||
         type instanceof WeakSet
     ) return type;
+    
     if (hash.has(type)) {
         return hash.get(type);
     }
     const c = new type.constructor;
 
     if (type instanceof Map) {
-        type.forEach((value, key) => c.set(cloneDeep(key), cloneDeep(value)));
+        type.forEach((value, key) => c.set(clone(key), clone(value)));
     }
     if (type instanceof Set) {
-        type.forEach((value) => c.add(cloneDeep(value)));
+        type.forEach((value) => c.add(clone(value)));
     }
     if (type instanceof Date) {
         return new Date(type);
     }
     hash.set(type, c);
-    return Object.assign(c, ...Object.keys(type).map((prop) => ({ [prop]: cloneDeep(type[prop], hash) })));
+    return Object.assign(c, ...Object.keys(type).map((prop) => ({ [prop]: clone(type[prop], hash) })));
 }
-export default deepclone;
+export default clone;

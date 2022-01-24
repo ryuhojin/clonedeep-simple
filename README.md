@@ -9,7 +9,7 @@
 
 #### IMPORT
 ```
-import deepclone from 'deepclone'
+import clone from 'clonedeepjs'
 ```
 #### EXAMPLE USE
 
@@ -17,8 +17,8 @@ import deepclone from 'deepclone'
 const origin1 = [1,2,3,4,5];
 const origin2 = {a:1,b:2};
 
-const copy1 = deepclone(origin1);
-const copy2 = deepclone(origin2);
+const copy1 = clone(origin1);
+const copy2 = clone(origin2);
 
 origin1 == copy1 //false
 origin2 == copy2 //false
@@ -28,7 +28,7 @@ EASY TO USE, HIGH PERFORMANCE TO USE <br/>
 JUST USE! DEEPCLONE!
 
 IF YOU WANT CONTRIBUTE THIS LIBRARY
-- [deepclone](https://github.com/ryuhojin/deepclone) JOIN JS.
+- [deepclone](https://github.com/ryuhojin/clonedeepjs) JOIN JS.
 
 ---
 
@@ -40,7 +40,7 @@ IF YOU WANT CONTRIBUTE THIS LIBRARY
 
 #### 임포트
 ```
-import deepclone from 'deepclone'
+import clone from 'clonedeepjs'
 ```
 #### 사용 예시
 
@@ -48,12 +48,12 @@ import deepclone from 'deepclone'
 const origin1 = [1,2,3,4,5];
 const origin2 = {a:1,b:2};
 
-const copy1 = deepclone(origin1);
-const copy2 = deepclone(origin2);
+const copy1 = clone(origin1);
+const copy2 = clone(origin2);
 
 origin1 == copy1 //false
 origin2 == copy2 //false
 ```
 
 라이브러리를 개선하실 분은 컨트리뷰트 해주세요
-- [deepclone] (https://github.com/ryuhojin/deepclone) 함께해주세요.
+- [deepclone] (https://github.com/ryuhojin/clonedeepjs) 함께해주세요.
