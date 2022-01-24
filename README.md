@@ -1,4 +1,4 @@
-# clonedeep-simple(v 1.0.0)
+# clonedeep-simple
 
 > HELLO , THIS IS SIMPLE DEEP CLONE LIBRARY<br/>
 > IF YOU WANT DEEP COPY FOR SOMETHING,<br/>
