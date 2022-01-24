@@ -28,7 +28,7 @@ EASY TO USE, HIGH PERFORMANCE TO USE <br/>
 JUST USE! DEEPCLONE!
 
 IF YOU WANT CONTRIBUTE THIS LIBRARY
-- [deepclone] (https://github.com/ryuhojin/deepclone)
+- [deepclone](https://github.com/ryuhojin/deepclone) JOIN JS.
 
 ---
 
@@ -56,4 +56,4 @@ origin2 == copy2 //false
 ```
 
 라이브러리를 개선하실 분은 컨트리뷰트 해주세요
-- [deepclone] (https://github.com/ryuhojin/deepclone)
+- [deepclone] (https://github.com/ryuhojin/deepclone) 함께해주세요.
