@@ -1,4 +1,4 @@
-# deepclone
+# clonedeep-simple(v 1.0.0)
 
 ## ENG
 > HELLO , THIS IS SIMPLE DEEP CLONE LIBRARY<br/>
@@ -9,7 +9,7 @@
 
 #### IMPORT
 ```javascript
-import clone from 'clonedeepjs'
+import clone from 'clonedeep-simple'
 ```
 #### EXAMPLE USE
 
@@ -28,7 +28,7 @@ EASY TO USE, HIGH PERFORMANCE TO USE <br/>
 JUST USE! DEEPCLONE!
 
 IF YOU WANT CONTRIBUTE THIS LIBRARY
-- [deepclone](https://github.com/ryuhojin/clonedeepjs) JOIN JS.
+- [deepclone](https://github.com/ryuhojin/clonedeep-simple) JOIN JS.
 
 ---
 
@@ -40,7 +40,7 @@ IF YOU WANT CONTRIBUTE THIS LIBRARY
 
 #### 임포트
 ```javascript
-import clone from 'clonedeepjs'
+import clone from 'clonedeep-simple'
 ```
 #### 사용 예시
 
@@ -56,4 +56,4 @@ origin2 == copy2 //false
 ```
 
 라이브러리를 개선하실 분은 컨트리뷰트 해주세요
-- [deepclone] (https://github.com/ryuhojin/clonedeepjs) 함께해주세요.
+- [deepclone] (https://github.com/ryuhojin/clonedeep-simple) 함께해주세요.
