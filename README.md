@@ -1,11 +1,10 @@
 # clonedeep-simple(v 1.0.0)
 
-## ENG
 > HELLO , THIS IS SIMPLE DEEP CLONE LIBRARY<br/>
 > IF YOU WANT DEEP COPY FOR SOMETHING,<br/>
 > JUST, USE THIS LIBRARY!
 
-### HOW TO USE
+> ### HOW TO USE
 
 #### IMPORT
 ```javascript
@@ -28,15 +27,15 @@ EASY TO USE, HIGH PERFORMANCE TO USE <br/>
 JUST USE! DEEPCLONE!
 
 IF YOU WANT CONTRIBUTE THIS LIBRARY
+
 - [deepclone](https://github.com/ryuhojin/clonedeep-simple) JOIN JS.
 
 ---
 
-### KOR
-> 안녕하세요, 간단한 깊은복사 라이브러리 입니다.
+> 안녕하세요, 간단한 깊은복사 라이브러리 입니다.<br/>
 > JS 이용시 깊은복사가 필요할때 이용하세요
 
-### 사용방법
+> ### 사용방법
 
 #### 임포트
 ```javascript
