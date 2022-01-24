@@ -1,6 +1,6 @@
 {
   "name": "clonedeep-simple",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "deepclone library, So Easy, So Fast Performance",
   "main": "index.js",
   "repository": {
