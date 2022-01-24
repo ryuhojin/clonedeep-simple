@@ -8,7 +8,7 @@
 ### HOW TO USE
 
 #### IMPORT
-```
+```javascript
 import clone from 'clonedeepjs'
 ```
 #### EXAMPLE USE
@@ -39,7 +39,7 @@ IF YOU WANT CONTRIBUTE THIS LIBRARY
 ### 사용방법
 
 #### 임포트
-```
+```javascript
 import clone from 'clonedeepjs'
 ```
 #### 사용 예시
