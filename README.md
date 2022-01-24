@@ -27,6 +27,11 @@ origin2 == copy2 //false
 EASY TO USE, HIGH PERFORMANCE TO USE <br/>
 JUST USE! DEEPCLONE!
 
+IF YOU WANT CONTRIBUTE THIS LIBRARY
+- [deepclone] (https://github.com/ryuhojin/deepclone)
+
+---
+
 ### KOR
 > 안녕하세요, 간단한 깊은복사 라이브러리 입니다.
 > JS 이용시 깊은복사가 필요할때 이용하세요
@@ -49,3 +54,6 @@ const copy2 = deepclone(origin2);
 origin1 == copy1 //false
 origin2 == copy2 //false
 ```
+
+라이브러리를 개선하실 분은 컨트리뷰트 해주세요
+- [deepclone] (https://github.com/ryuhojin/deepclone)
