@@ -1,0 +1,27 @@
+{
+  "name": "clonedeepjs",
+  "version": "1.0.0",
+  "description": "deepclone library, So Easy, So Fast Performance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryuhojin/clonedeepjs.git"
+  },
+  "keywords": [
+    "clonedeep",
+    "deepclone",
+    "clone",
+    "copy",
+    "deepcopy",
+    "copydeep"
+  ],
+  "author": "ryuhojin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryuhojin/clonedeepjs/issues"
+  },
+  "homepage": "https://github.com/ryuhojin/clonedeepjs#readme"
+}
